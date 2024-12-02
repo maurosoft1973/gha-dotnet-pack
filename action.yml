@@ -1,6 +1,10 @@
 name: .NET Pack
 description: An opinionated action that retrieve previously build projects and packs them into a NuGet package.
 inputs:
+  configuration:
+    description: Defines the build configuration. Default is Release.
+    required: false
+    default: 'Release'
   downloadArtifactName:
     description: Defines the build artifact name to download. Default is BuildArtifact.
     required: false
