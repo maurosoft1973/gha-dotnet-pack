@@ -7,7 +7,7 @@ Uses the .NET CLI `dotnet pack` [command](https://learn.microsoft.com/en-us/dotn
 To use this action in your GitHub repository, you can follow these steps:
 
 ```yaml
-uses: maurosoft1973/dotnet-pack@v1
+uses: maurosoft1973/gha-dotnet-pack@v1
 ```
 
 ### Inputs
